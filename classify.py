@@ -27,14 +27,6 @@ PATH_TO_LABELMAP = os.path.join(
     'model', 
     'labelmap.pbtxt')
 
-PATH_TO_ORIGINAL_IMAGES = os.path.join(
-    CWD_PATH,
-    'original_images')
-
-PATH_TO_CLASSIFIED_IMAGES = os.path.join(
-    CWD_PATH,
-    'classified_images')
-
 # Define the number of classes the model is trained for.
 NUM_CLASSES = 12
 
